@@ -63,3 +63,21 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+## Links ( endpoints)
+
+#### RDS database
+
+Database endpoint: `database-1.cctgeovjc1jf.us-east-1.rds.amazonaws.com`
+full database url : `postgres://postgres:password@database-1.cctgeovjc1jf.us-east-1.rds.amazonaws.com:5432/postgres`
+
+#### Elastic Beanstalk
+
+server is running on EBS depending on the database
+
+server url : `http://udagram-api-dev.eba-gp9vjvfs.us-east-1.elasticbeanstalk.com/`
+
+#### S3
+
+front end is uploaded on S3 for static web hosting,
+app url : `http://ekramy-udagram.s3-website-us-east-1.amazonaws.com/`
